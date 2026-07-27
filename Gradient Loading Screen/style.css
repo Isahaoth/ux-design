@@ -1,0 +1,69 @@
+:root {
+    --bg-color: darkslateblue;
+    --text-color: #FAFAFA;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+
+    background: linear-gradient(to left bottom, #FF9A9E, #6047E0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: var(--text-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    backdrop-filter: blur(20px) saturate(125%);
+    background: rgba(255,255,255,0.33);
+    border-radius: 40px;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
+
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading
+{
+    max-width: 95%;
+    line-height: 1.4;
+    font-size:1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loading__author
+{
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: rgba(255,255,255, 0.6);
+    margin: 0.6rem 0 1.5rem 0;
+    display: block;
+}
+
+.loading__anim
+{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    border: 5px solid #FAFAFA;
+    border-left-color: darkslateblue;
+    border-radius: 50%;
+    animation: rotate 650ms infinite linear;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(1turn)
+    }
+}
