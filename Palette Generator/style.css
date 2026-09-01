@@ -1,0 +1,80 @@
+body{
+    background-color:#F8F8FF
+}
+header {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 550;
+    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #92A9E1;
+}
+div{
+    text-align: center;
+}
+.palette
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: stretch;
+    height: 60vh;
+    row-gap: 5px;
+    padding: 1rem;
+}
+.column1 {
+    border-radius: 35px;
+    width: 15%;
+}
+.column2 {
+    border-radius: 35px;
+    width: 15%;
+}
+.column3 {
+    border-radius: 35px;
+    width: 15%;
+}
+.column4 {
+    border-radius: 35px;
+    width: 15%;
+}
+.column5 {
+    border-radius: 35px;
+    width: 15%;
+}
+button {
+    padding: 5px 50px;
+    border: 2px solid #5f88e1;
+    border-radius: 25px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #F8F8FF;
+    background-color: #92A9E1;
+}
+    button:is(:hover) {
+        background-color: #5f88e1;
+    }
+
+.codes {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    width: 50%;
+    height: 75px;
+    align-content: center;
+    padding: 5px 10px;
+    font-size: 24px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #92A9E1;
+}
+.copy {
+    font-size: 16px;
+    background-color: #92A9E1;
+    padding: 5px 5px;
+    color: white;
+    border: 2px solid #5f88e1;
+}
+.copy:is(:hover) 
+{
+    background-color: #5f88e1;
+}
